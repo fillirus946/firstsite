@@ -1,63 +1,88 @@
-html{
+
+*{
     font-size: 10px;
+    margin: 0;
+    margin-bottom: 0;
+
 }
 
-
-
-body {
+.body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    text-align: center;
     color: #333;
-    margin: 0;
+    font-size: 1.6rem;
 }
 .main{
     margin: 30px 8px;
     padding: 15px;
     border-radius: 5px;
+    text-align: center;
     background: #eee;
 }
+.img-div_p{
+    font-size: 1.6rem;
+    margin: 8px;
+}
 .header{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-}
-.header>h1{
-    font-size: 4rem;
-    margin-bottom: 0;
-}
-.img-div>p{
-    margin: 15px 0 5px 0;
+    line-height: 1.5;
 }
 .img-div{
     background: white;
     padding: 10px;
-    margin: 0;
-}
-.img-div>p{
-    margin: 15px 0 5px 0;
 }
 
-.section-1{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
+.header_title{
+    font-size: 4rem;
 }
-.section-1>ul{
+
+.header_title-1{
+    font-size: 1.6rem;
+    line-height: 3.5;
+}
+.section-1_title{
+    margin: 50px 0;
+}
+.list_item{
+    margin: 16px 0;
+    font-size: 1.6rem;
+}
+.list{
     max-width: 550px;
     margin: 0 auto 50px auto;
     text-align: left;
-    line-height: 1.6
+    line-height: 1.6;
 }
-.section-1>ul>li{
-    margin: 16px 0;
+.section-1_headline{
+    margin: 50px 0;
+    font-size: 1.9rem;
+
 }
-blockquote{
+
+.list_item_bold-years{
+    font-weight: bold;
+    font-size: unset;
+}
+.quote_item-1{
     font-style: italic;
     max-width: 545px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 50px;
     text-align: left;
+    font-size: 1.6rem;
+}
+
+.quote_item-2{
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px;
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.footer-link{
+    font-size: 1.7rem;
+    line-height: 3.5;
+}
+
+.footer-link_link{
+    font-size: 1.7rem;
+    line-height: 3.5;
 }
